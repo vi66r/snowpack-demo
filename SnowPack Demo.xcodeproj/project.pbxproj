@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0113437229A720060067B383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0113437129A720060067B383 /* AppDelegate.swift */; };
+		0113437429A720060067B383 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0113437329A720060067B383 /* SceneDelegate.swift */; };
+		0113437B29A720070067B383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0113437A29A720070067B383 /* Assets.xcassets */; };
+		0113437E29A720070067B383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0113437C29A720070067B383 /* LaunchScreen.storyboard */; };
+		0113438929A720070067B383 /* SnowPack_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0113438829A720070067B383 /* SnowPack_DemoTests.swift */; };
+		0113439329A720070067B383 /* SnowPack_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0113439229A720070067B383 /* SnowPack_DemoUITests.swift */; };
+		0113439529A720070067B383 /* SnowPack_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0113439429A720070067B383 /* SnowPack_DemoUITestsLaunchTests.swift */; };
+		011343CC29A7DCAA0067B383 /* SimpleTableViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011343CB29A7DCAA0067B383 /* SimpleTableViewDemoViewController.swift */; };
+		0113441029A934920067B383 /* SnowPack in Frameworks */ = {isa = PBXBuildFile; productRef = 0113440F29A934920067B383 /* SnowPack */; };
+		0113441229A94AF20067B383 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0113441129A94AF20067B383 /* Session.swift */; };
+		0113441429A951E10067B383 /* SimpleTableViewDemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0113441329A951E00067B383 /* SimpleTableViewDemoCell.swift */; };
+		0113441629A975E90067B383 /* SimpleTableViewDemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0113441529A975E90067B383 /* SimpleTableViewDemoViewModel.swift */; };
+		0113441829A977D80067B383 /* SimpleCollectionViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0113441729A977D80067B383 /* SimpleCollectionViewDemoViewController.swift */; };
+		0113441A29A977E50067B383 /* SimpleCollectionViewDemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0113441929A977E50067B383 /* SimpleCollectionViewDemoViewModel.swift */; };
+		0113441C29A989790067B383 /* ZoomableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0113441B29A989790067B383 /* ZoomableImageView.swift */; };
+		0113441E29A9CFD50067B383 /* CollectionViewImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0113441D29A9CFD50067B383 /* CollectionViewImageCell.swift */; };
+		01F0F6D829AAD6B700577CE3 /* BlurDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0F6D729AAD6B700577CE3 /* BlurDemoViewController.swift */; };
+		01F0F6DA29AD3A9400577CE3 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0F6D929AD3A9400577CE3 /* WeatherService.swift */; };
+		01F0F6DC29AD47C400577CE3 /* SimpleWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0F6DB29AD47C400577CE3 /* SimpleWeatherViewController.swift */; };
+		01F0F6DE29AD49BB00577CE3 /* SimpleWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0F6DD29AD49BB00577CE3 /* SimpleWeatherViewModel.swift */; };
+		01F0F6E229AEBD8A00577CE3 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0F6E129AEBD8A00577CE3 /* OnboardingViewController.swift */; };
+		01F0F6E429AEBDD500577CE3 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0F6E329AEBDD500577CE3 /* RandomViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0113438529A720070067B383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0113436629A720060067B383 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0113436D29A720060067B383;
+			remoteInfo = "SnowPack Demo";
+		};
+		0113438F29A720070067B383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0113436629A720060067B383 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0113436D29A720060067B383;
+			remoteInfo = "SnowPack Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0113436E29A720060067B383 /* SnowPack Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnowPack Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0113437129A720060067B383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0113437329A720060067B383 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0113437A29A720070067B383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0113437D29A720070067B383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0113437F29A720070067B383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0113438429A720070067B383 /* SnowPack DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SnowPack DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0113438829A720070067B383 /* SnowPack_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowPack_DemoTests.swift; sourceTree = "<group>"; };
+		0113438E29A720070067B383 /* SnowPack DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SnowPack DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0113439229A720070067B383 /* SnowPack_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowPack_DemoUITests.swift; sourceTree = "<group>"; };
+		0113439429A720070067B383 /* SnowPack_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowPack_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		011343CB29A7DCAA0067B383 /* SimpleTableViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewDemoViewController.swift; sourceTree = "<group>"; };
+		0113441129A94AF20067B383 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		0113441329A951E00067B383 /* SimpleTableViewDemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewDemoCell.swift; sourceTree = "<group>"; };
+		0113441529A975E90067B383 /* SimpleTableViewDemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewDemoViewModel.swift; sourceTree = "<group>"; };
+		0113441729A977D80067B383 /* SimpleCollectionViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewDemoViewController.swift; sourceTree = "<group>"; };
+		0113441929A977E50067B383 /* SimpleCollectionViewDemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewDemoViewModel.swift; sourceTree = "<group>"; };
+		0113441B29A989790067B383 /* ZoomableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableImageView.swift; sourceTree = "<group>"; };
+		0113441D29A9CFD50067B383 /* CollectionViewImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewImageCell.swift; sourceTree = "<group>"; };
+		01F0F6D729AAD6B700577CE3 /* BlurDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurDemoViewController.swift; sourceTree = "<group>"; };
+		01F0F6D929AD3A9400577CE3 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		01F0F6DB29AD47C400577CE3 /* SimpleWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWeatherViewController.swift; sourceTree = "<group>"; };
+		01F0F6DD29AD49BB00577CE3 /* SimpleWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWeatherViewModel.swift; sourceTree = "<group>"; };
+		01F0F6E129AEBD8A00577CE3 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		01F0F6E329AEBDD500577CE3 /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0113436B29A720060067B383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0113441029A934920067B383 /* SnowPack in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0113438129A720070067B383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0113438B29A720070067B383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0113436529A720060067B383 = {
+			isa = PBXGroup;
+			children = (
+				0113437029A720060067B383 /* SnowPack Demo */,
+				0113438729A720070067B383 /* SnowPack DemoTests */,
+				0113439129A720070067B383 /* SnowPack DemoUITests */,
+				0113436F29A720060067B383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0113436F29A720060067B383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0113436E29A720060067B383 /* SnowPack Demo.app */,
+				0113438429A720070067B383 /* SnowPack DemoTests.xctest */,
+				0113438E29A720070067B383 /* SnowPack DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0113437029A720060067B383 /* SnowPack Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0113437129A720060067B383 /* AppDelegate.swift */,
+				0113437329A720060067B383 /* SceneDelegate.swift */,
+				0113441B29A989790067B383 /* ZoomableImageView.swift */,
+				01F0F6D729AAD6B700577CE3 /* BlurDemoViewController.swift */,
+				01F0F6E029AEBD7D00577CE3 /* OnboardingDemo */,
+				01F0F6DF29AD4F8D00577CE3 /* APIDemo */,
+				0113442029AAC9610067B383 /* SimpleTableViewDemo */,
+				0113441F29AABF0D0067B383 /* SimpleCollectionViewDemo */,
+				0113441129A94AF20067B383 /* Session.swift */,
+				0113437A29A720070067B383 /* Assets.xcassets */,
+				0113437C29A720070067B383 /* LaunchScreen.storyboard */,
+				0113437F29A720070067B383 /* Info.plist */,
+			);
+			path = "SnowPack Demo";
+			sourceTree = "<group>";
+		};
+		0113438729A720070067B383 /* SnowPack DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0113438829A720070067B383 /* SnowPack_DemoTests.swift */,
+			);
+			path = "SnowPack DemoTests";
+			sourceTree = "<group>";
+		};
+		0113439129A720070067B383 /* SnowPack DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0113439229A720070067B383 /* SnowPack_DemoUITests.swift */,
+				0113439429A720070067B383 /* SnowPack_DemoUITestsLaunchTests.swift */,
+			);
+			path = "SnowPack DemoUITests";
+			sourceTree = "<group>";
+		};
+		0113441F29AABF0D0067B383 /* SimpleCollectionViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0113441729A977D80067B383 /* SimpleCollectionViewDemoViewController.swift */,
+				0113441929A977E50067B383 /* SimpleCollectionViewDemoViewModel.swift */,
+				0113441D29A9CFD50067B383 /* CollectionViewImageCell.swift */,
+			);
+			path = SimpleCollectionViewDemo;
+			sourceTree = "<group>";
+		};
+		0113442029AAC9610067B383 /* SimpleTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				011343CB29A7DCAA0067B383 /* SimpleTableViewDemoViewController.swift */,
+				0113441529A975E90067B383 /* SimpleTableViewDemoViewModel.swift */,
+				0113441329A951E00067B383 /* SimpleTableViewDemoCell.swift */,
+			);
+			path = SimpleTableViewDemo;
+			sourceTree = "<group>";
+		};
+		01F0F6DF29AD4F8D00577CE3 /* APIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				01F0F6DB29AD47C400577CE3 /* SimpleWeatherViewController.swift */,
+				01F0F6DD29AD49BB00577CE3 /* SimpleWeatherViewModel.swift */,
+				01F0F6D929AD3A9400577CE3 /* WeatherService.swift */,
+			);
+			path = APIDemo;
+			sourceTree = "<group>";
+		};
+		01F0F6E029AEBD7D00577CE3 /* OnboardingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				01F0F6E129AEBD8A00577CE3 /* OnboardingViewController.swift */,
+				01F0F6E329AEBDD500577CE3 /* RandomViewController.swift */,
+			);
+			path = OnboardingDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0113436D29A720060067B383 /* SnowPack Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0113439829A720070067B383 /* Build configuration list for PBXNativeTarget "SnowPack Demo" */;
+			buildPhases = (
+				0113436A29A720060067B383 /* Sources */,
+				0113436B29A720060067B383 /* Frameworks */,
+				0113436C29A720060067B383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SnowPack Demo";
+			packageProductDependencies = (
+				0113440F29A934920067B383 /* SnowPack */,
+			);
+			productName = "SnowPack Demo";
+			productReference = 0113436E29A720060067B383 /* SnowPack Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0113438329A720070067B383 /* SnowPack DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0113439B29A720070067B383 /* Build configuration list for PBXNativeTarget "SnowPack DemoTests" */;
+			buildPhases = (
+				0113438029A720070067B383 /* Sources */,
+				0113438129A720070067B383 /* Frameworks */,
+				0113438229A720070067B383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0113438629A720070067B383 /* PBXTargetDependency */,
+			);
+			name = "SnowPack DemoTests";
+			productName = "SnowPack DemoTests";
+			productReference = 0113438429A720070067B383 /* SnowPack DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0113438D29A720070067B383 /* SnowPack DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0113439E29A720070067B383 /* Build configuration list for PBXNativeTarget "SnowPack DemoUITests" */;
+			buildPhases = (
+				0113438A29A720070067B383 /* Sources */,
+				0113438B29A720070067B383 /* Frameworks */,
+				0113438C29A720070067B383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0113439029A720070067B383 /* PBXTargetDependency */,
+			);
+			name = "SnowPack DemoUITests";
+			productName = "SnowPack DemoUITests";
+			productReference = 0113438E29A720070067B383 /* SnowPack DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0113436629A720060067B383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0113436D29A720060067B383 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0113438329A720070067B383 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0113436D29A720060067B383;
+					};
+					0113438D29A720070067B383 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0113436D29A720060067B383;
+					};
+				};
+			};
+			buildConfigurationList = 0113436929A720060067B383 /* Build configuration list for PBXProject "SnowPack Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0113436529A720060067B383;
+			packageReferences = (
+				0113440E29A934920067B383 /* XCRemoteSwiftPackageReference "SnowPack" */,
+			);
+			productRefGroup = 0113436F29A720060067B383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0113436D29A720060067B383 /* SnowPack Demo */,
+				0113438329A720070067B383 /* SnowPack DemoTests */,
+				0113438D29A720070067B383 /* SnowPack DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0113436C29A720060067B383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0113437E29A720070067B383 /* LaunchScreen.storyboard in Resources */,
+				0113437B29A720070067B383 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0113438229A720070067B383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0113438C29A720070067B383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0113436A29A720060067B383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0113441229A94AF20067B383 /* Session.swift in Sources */,
+				0113441629A975E90067B383 /* SimpleTableViewDemoViewModel.swift in Sources */,
+				0113441C29A989790067B383 /* ZoomableImageView.swift in Sources */,
+				0113441829A977D80067B383 /* SimpleCollectionViewDemoViewController.swift in Sources */,
+				01F0F6DA29AD3A9400577CE3 /* WeatherService.swift in Sources */,
+				01F0F6E429AEBDD500577CE3 /* RandomViewController.swift in Sources */,
+				0113441E29A9CFD50067B383 /* CollectionViewImageCell.swift in Sources */,
+				01F0F6D829AAD6B700577CE3 /* BlurDemoViewController.swift in Sources */,
+				01F0F6E229AEBD8A00577CE3 /* OnboardingViewController.swift in Sources */,
+				01F0F6DC29AD47C400577CE3 /* SimpleWeatherViewController.swift in Sources */,
+				0113437229A720060067B383 /* AppDelegate.swift in Sources */,
+				0113441A29A977E50067B383 /* SimpleCollectionViewDemoViewModel.swift in Sources */,
+				011343CC29A7DCAA0067B383 /* SimpleTableViewDemoViewController.swift in Sources */,
+				01F0F6DE29AD49BB00577CE3 /* SimpleWeatherViewModel.swift in Sources */,
+				0113441429A951E10067B383 /* SimpleTableViewDemoCell.swift in Sources */,
+				0113437429A720060067B383 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0113438029A720070067B383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0113438929A720070067B383 /* SnowPack_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0113438A29A720070067B383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0113439329A720070067B383 /* SnowPack_DemoUITests.swift in Sources */,
+				0113439529A720070067B383 /* SnowPack_DemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0113438629A720070067B383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0113436D29A720060067B383 /* SnowPack Demo */;
+			targetProxy = 0113438529A720070067B383 /* PBXContainerItemProxy */;
+		};
+		0113439029A720070067B383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0113436D29A720060067B383 /* SnowPack Demo */;
+			targetProxy = 0113438F29A720070067B383 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0113437C29A720070067B383 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0113437D29A720070067B383 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0113439629A720070067B383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0113439729A720070067B383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0113439929A720070067B383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4X533PGY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SnowPack Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyperware.SnowPack-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0113439A29A720070067B383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4X533PGY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SnowPack Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyperware.SnowPack-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0113439C29A720070067B383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4X533PGY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyperware.SnowPack-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowPack Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnowPack Demo";
+			};
+			name = Debug;
+		};
+		0113439D29A720070067B383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4X533PGY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyperware.SnowPack-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowPack Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnowPack Demo";
+			};
+			name = Release;
+		};
+		0113439F29A720070067B383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4X533PGY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyperware.SnowPack-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SnowPack Demo";
+			};
+			name = Debug;
+		};
+		011343A029A720070067B383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4X533PGY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyperware.SnowPack-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SnowPack Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0113436929A720060067B383 /* Build configuration list for PBXProject "SnowPack Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0113439629A720070067B383 /* Debug */,
+				0113439729A720070067B383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0113439829A720070067B383 /* Build configuration list for PBXNativeTarget "SnowPack Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0113439929A720070067B383 /* Debug */,
+				0113439A29A720070067B383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0113439B29A720070067B383 /* Build configuration list for PBXNativeTarget "SnowPack DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0113439C29A720070067B383 /* Debug */,
+				0113439D29A720070067B383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0113439E29A720070067B383 /* Build configuration list for PBXNativeTarget "SnowPack DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0113439F29A720070067B383 /* Debug */,
+				011343A029A720070067B383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0113440E29A934920067B383 /* XCRemoteSwiftPackageReference "SnowPack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vi66r/SnowPack";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0113440F29A934920067B383 /* SnowPack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0113440E29A934920067B383 /* XCRemoteSwiftPackageReference "SnowPack" */;
+			productName = SnowPack;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0113436629A720060067B383 /* Project object */;
+}
